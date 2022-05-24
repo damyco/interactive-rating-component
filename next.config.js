@@ -1,6 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-}
-
-module.exports = nextConfig
+  images: {
+    domains: ["images.ctfassets.net"],
+  },
+  i18n: {
+    locales: ["en-GB"],
+    defaultLocale: "en-GB",
+  },
+};

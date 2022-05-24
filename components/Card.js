@@ -44,7 +44,7 @@ export default function Card() {
             <Circle>
               <img src="/icon-star.svg" alt="Star icon" />
             </Circle>
-            <h2 className={styles.heading}>How did we do?</h2>
+            <h1 className={styles.heading}>How did we do?</h1>
             <p className={styles.text}>
               Please let us know how we did with your support request. All
               feedback is appreciated to help us improve our offering!
