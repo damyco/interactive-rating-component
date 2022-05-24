@@ -1,0 +1,52 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 390px;
+  background-color: var(--neutral-very-dark-blue);
+  background: linear-gradient(
+    180deg,
+    rgba(30, 36, 43, 1) 0%,
+    rgba(23, 30, 40, 1) 100%
+  );
+}
+
+.centerCard {
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: var(--neutral-white);
+  padding-bottom: 0.7rem;
+}
+
+.text {
+  color: var(--neutral-light-grey);
+  line-height: 1.5;
+}
+
+.illustration {
+  max-width: 150px;
+}
+
+.selectedRatingText {
+  margin: 2rem auto;
+
+  padding: 0.4rem 1rem;
+
+  border-radius: 30px;
+  background-color: #262f38;
+  color: var(--primary);
+}

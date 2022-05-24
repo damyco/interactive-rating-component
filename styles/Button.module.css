@@ -1,0 +1,24 @@
+.buttonPrimary {
+  border-radius: 20px;
+  padding: 0.9rem 0;
+  background-color: var(--primary);
+  border: none;
+  color: var(--neutral-white);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  line-height: 1.2;
+}
+
+.buttonPrimary:hover {
+  color: var(--primary);
+  background-color: var(--neutral-white);
+}
+
+.buttonPrimary:active {
+  background-color: #eee;
+  transform: translateY(1px);
+}
